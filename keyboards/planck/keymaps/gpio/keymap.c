@@ -52,7 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     POTMOD,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0, LT(LOWER, KC_BSPC),
     KC_GESC,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,  KC_LEAD,
     RSFT_T(KC_TAB),  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L, KC_UP, KC_SFTENT,
-    LCTL_T(KC_CAPS), LT(FUNCT, KC_Z), LGUI_T(KC_C), LALT_T(KC_X), LT(LOWER, KC_V), KC_B, KC_N, LT(RAISE, KC_M), KC_SPC, KC_LEFT, KC_DOWN, KC_RIGHT 
+    LCTL_T(KC_CAPS), LT(FUNCT, KC_Z), LGUI_T(KC_X), LALT_T(KC_C), LT(LOWER, KC_V), KC_B, KC_N, LT(RAISE, KC_M), KC_SPC, KC_LEFT, KC_DOWN, KC_RIGHT 
 ),
 
 [_LOWER] = LAYOUT_planck_grid(
@@ -84,7 +84,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |      |Voice-|Voice+|Mus on|Musoff|MIDIon|MIDIof|TermOn|TermOf|      |      |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |      |      |      |      |      |             |      |      |      |      |      |
+ * |      |      |      |      |      |      |      |      |      |      |      |      |
  * `-----------------------------------------------------------------------------------'
  */
 [_ADJUST] = LAYOUT_planck_grid(
